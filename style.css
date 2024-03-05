@@ -1,0 +1,125 @@
+/*
+div{
+border: 1px;
+border-color: black;
+border-style: solid;
+}
+*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f2f2f2;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    font-size: 80%;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: grey
+  }
+  
+.active {
+    background-color: #e4d5d2
+  }
+
+.pääotsikko {
+font-size: 100%;
+text-align: center; 
+padding-bottom: 100px;
+background-color: #4a6755
+}
+
+
+.pääotsikko h1 {
+    color: white;
+    padding: 0px 50px 0px 50px;
+}
+
+.pääotsikko img {
+padding: 100px;
+
+}
+
+html, body {
+margin:0;
+padding:0;
+font-family: "League Spartan", sans-serif;
+
+}
+
+.esittely {
+font-size: 100%;
+text-align: center; 
+background-color: #b7c2bb;
+
+
+}
+
+.esittely img {
+padding-top: 50px;
+
+}
+
+.esittelyteksti {
+font-size: medium;
+text-align: center;
+background-color: #b7c2bb;
+padding: 0px 30px 50px 30px;
+font-weight: 300;
+}
+
+.asiakkaat {
+font-size: 100%;
+text-align: center; 
+background-color: #e4d5d2;
+padding: 20px 0px 50px 0px
+}
+
+.suositus {
+    font-size: 100%;
+    text-align: center; 
+    background-color: white;
+    padding: 50px 0px 50px 0px;
+
+}
+
+.suosituksia {
+    font-size: medium;
+    text-align: center;
+    background-color: white;
+    padding: 10px 30px 50px 30px;
+    font-weight: 300;
+
+}
+    
+.footer {
+    font-size: small;
+    text-align: center; 
+    background-color: black;
+    padding: 15px;
+}
+
+.footer h3 {
+    color: white;
+    font-weight: 100;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap')
