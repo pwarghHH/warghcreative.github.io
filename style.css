@@ -120,6 +120,10 @@ padding: 20px 0px 50px 0px
     color: white;
     font-weight: 100;
 }
-
-
+@media only screen and (min-width: 1025px) {
+  .esittelyteksti {
+    width: 55%
+    }
+}
+      
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap')
