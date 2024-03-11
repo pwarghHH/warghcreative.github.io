@@ -78,6 +78,8 @@ padding-top: 50px;
 }
 
 .esittelyteksti {
+width: 90%;
+margin: auto;
 font-size: medium;
 text-align: center;
 background-color: #b7c2bb;
@@ -101,7 +103,9 @@ padding: 20px 0px 50px 0px
 }
 
 .suosituksia {
-    font-size: medium;
+  width: 90%;  
+  margin: auto;
+  font-size: medium;
     text-align: center;
     background-color: white;
     padding: 10px 30px 50px 30px;
@@ -109,6 +113,28 @@ padding: 20px 0px 50px 0px
 
 }
     
+.banneri {
+  font-size: 80%;
+  text-align: center; 
+  padding-bottom: 50px;
+  padding-top: 50px;
+  background-color: #b7c2bb;
+  }
+  
+  
+  .banneri h1 {
+      color: white;
+      padding: 0px 50px 0px 50px;
+  }
+  
+
+  .lomake {
+    text-align: center;
+    margin: auto;
+    background-color: #b7c2bb;
+
+  }
+
 .footer {
     font-size: small;
     text-align: center; 
@@ -120,10 +146,17 @@ padding: 20px 0px 50px 0px
     color: white;
     font-weight: 100;
 }
+
 @media only screen and (min-width: 1025px) {
   .esittelyteksti {
-    width: 55%
+    width: 60%;
+    text-align: center;
     }
+    .suosituksia {
+      width: 60%;
+      text-align: center
+  
+  }
 }
       
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap')
